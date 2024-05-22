@@ -33,6 +33,9 @@ def foo4(number1: int, number2: int) -> int:
 def foo8(number1: int, number2: int) -> int:
     return 2*number1 + number2
 
+def outsideFunction() -> None:
+    print("This is a new function added outside of any IFFT block!")
+
 # main
 
 print(foo1(1, 2))
